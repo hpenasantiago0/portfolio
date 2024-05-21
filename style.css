@@ -1,11 +1,35 @@
 /*_---------Home----------_*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    right:0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+body{
+    background: red;
+}
 *
 {
-.header-text-Home{
-     margin-top: 1%;
-     font-size: 30px;
- }
+    .header-text-Home{
+        margin-top: 1%;
+        font-size: 30px;
+    }
 }
+
 
 .header-text h1{
     font-size: 70px;
@@ -25,6 +49,7 @@ body
     background-image: url("?");
     background-size: cover;
     background-position: center;
+
 
     font-family: sans-serif;
 }
@@ -59,6 +84,7 @@ body
 {
     margin-right: 8px;
 }
+
 
 .sub-menu-1
 {
@@ -100,400 +126,25 @@ body
 }
 
 /*_-----------------Resume---------------------_*/
-.header-text-Resume{
-    margin-top: 1%;
-    font-size: 30px;
-}
 
 /*------------------Vocation-------------------*/
-.Vocation-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-.Vocation-list div{
-    background: #262626;
-    padding: 40px;
-    font-size: 40px;
-    font-weight: 300;
-    border-right: 10px;
-    transition: background 0.5s, transform 0.5s;
-}
-.Vocation-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-.Vocation-list div h2{
-    font-size: 50px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.Vocation-list div a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-.Vocation-list div{
-    background: #262626;;
-    transform: translateY(-10px);
-}
 /*-------------------My Work-------------------*/
-#header-text-Work{
-    padding: 5px 0;
-}
-.work-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-.work img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
-}
-
-.layer h3{
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-.layer a{
-    margin-top: 20px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
-}
-.work:hover img{
-    transform: scale(1.1);
-}
-.work:hover .layer{
-    height: 100%;
-}
-.btn{
-    background: black;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid blue;
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #fff;
-    transition: background 0.5s;
-}
-.btn:hover{
-    background: blue;
-}
-.active, .menu-bar ul li:hover
-{
-    background: #080808;
-    border-radius: 3px;
-}
-.sub-menu-1
-{
-    display: none;
-}
-.menu-bar ul li:hover .sub-menu-1
-{
-    display: block;
-    position: absolute;
-    background: rgb(0, 0, 0);
-    margin-top: 15px;
-    margin-left: -15px;
-}
-.menu-bar ul li:hover .sub-menu-1 ul
-{
-    display: block;
-    margin: 10px;
-}
-.menu-bar ul li:hover .sub-menu-1 ul li
-{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child
-{
-    border-bottom: none;
-}
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover
-{
-    color: white;
-}
-.fa-angle-right {
-    float: right;
-}
 /*-------------------My Favorite Game's-------------------*/
-.header-text{
-    margin-top: 1%;
-    font-size: 30px;
-}
-.header2-text{
-    width: 100%;
-    height: 100vh;
-    background-color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /*-------------------My Favorite Anime's-------------------*/
-.header2-text{
-    margin-top: 1%;
-    font-size: 30px;
-}
-.header2-text h1{
-    font-size: 70px;
-    margin-top: 30px;
-}
-.header-text{
-    width: 100%;
-    height: 100vh;
-    background-color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 /*-------------------My Favorite show' & Movie-------------------*/
-.header3-text{
-    margin-top: 1%;
-    font-size: 30px;
-}
-.header3-text h1{
-    font-size: 70px;
-    margin-top: 30px;
-}
-.header3-text{
-    width: 100%;
-    height: 100vh;
-    background-color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 /*-------------------About Me------------------------*/
-:root{
-    --purple:#2F192E;
-    --purple-light:#30192d;
-    --dark-blue:#012677;
-    --blue: #5c65c0;
-    --skyblue :#00b4fc;
-    --light-blue:#005bc5;
-    --dark-magenta:#e21b5a;
-    --light-green:#61e2c2;
-    --light-purple:#d9abff;
-}
-*{
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
-    text-decoration:none;
-    font-family: poppins,sans-serif;
-}
-body{
-    background: linear-gradient(45deg, var(--purple),var(--purple-light));
-}
-.container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 100%;
-    width: 100%;
-    flex-wrap: wrap;
-    position: relative;
-}
-.profile-card{
-    background: #111;
-    width:400px;
-    padding: 3rem;
-    border-radius: 10px;
-    min-height: 400px;
-    position: relative;
-    color: #fff;
-    margin: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
-.profile-card .profile-pic{
-    margin-top: 15px;
-    overflow: hidden;
-}
-.profile-card .profile-pic img{
-    border-radius: 10px;
-}
-.profile-card .profile-details{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width:100%
-}
-.profile-details .intro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.profile-details .intro h2{
-    margin-top: 20px;
-}
-.profile-details .intro h4{
-    background: #1d1d1d;
-    font-weight: 400;
-    border-radius: 4px;
-    padding: 5px 10px;
-    margin: 8px;
-}
-.profile-details .intro .social{
-    margin-top: 10px;
-    margin-bottom: 25px;
-}
-.profile-details .intro .social i{
-    color: #ddd;
-    font-size: 16px;
-    background-color: #222;
-    margin: 5px;
-    height: 35px;
-    width: 35px;
-    line-height: 35px;
-    text-align: center;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-.profile-details .intro .social i:hover{
-    transform: scale(1.2);
-    border:1px solid rgba(255,255,255,0.3)
-}
-.profile-details .content-info{
-    background-color: #1d1d1d;
-    padding: 15px;
-    border-radius: 10px;
-    width: 100%;
-}
-.profile-details .content-info .row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-    padding: 10px 0;
-    margin-bottom: 10px;
-}
-.contact-info .row .icon{
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    border-radius: 5px;
-    background-color: #111;
-    text-align: center;
-    color: #fff;
-    transition: 0.5s;
-}
-.row .icon:hover{
-    transform:scale(1.2);
-    border:1px solid rgba(255,255,255,0.1);
-}
-.row .content{
-    min-width: 70%;
-}
-.row .content span{
-    font-size: 12px;
-}
-.download-btn{
-    background: linear-gradient(45deg, #f64c57,#e21b5a);
-    color:#fff;
-    padding: 1rem 3rem;
-    border-radius: 30px;
-    margin-top: 1.5rem;
-    border: none;
-}
-/*****about section ****/
-.about{
-    background-color: #111;
-    max-width: 800px;
-    padding: 2rem 3rem;
-    border-radius: 10px;
-}
-.about h1{
-    color: #f2f2f2;
-    margin-bottom: 1.1rem;
-    position: relative;
-    display: inline-block;
-    font-size: 3.5rem;
-}
-.about h1::after{
-    position: absolute;
-    content: "";
-    top:50%;
-    right:-50%;
-    width:45%;
-    height: 3px;
-    background: linear-gradient(45deg, blue);
-}
-.about h2{
-    color: #f2f2f2;
-    font-size: 2rem;
-    margin:0.5rem 0;
-}
-.about p{
-    color: #555;
-    margin: 1.5rem 0;
-}
-.about .work{
-    display : grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-}
-.work .workbox{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 8px;
-    border: 1px solid #333;
-    padding: 1rem;
-    margin: 1rem;
 
-}
-.work .workbox .desc{
-    width:75%;
-    color:#555;
-}
-.work .workbox .desc h3{
-    color:#f2f2f2;
-    margin-bottom: 3px;
-}
-.work .workbox .desc p{
-    margin:0px;
-}
-/***Responsive Design ***/
-@media(max-width:768px)
-{
-    .about{
-        width: 1005;
-        max-width: 400px;
-        padding:1rem;
-        margin: 1rem;
-    }
-    .about h1{
-        font-size: 2.2rem;
-    }
-    .about .work{
-        grid-template-columes: repeat(1,1fr);
-        grid-template-rows: repeat(4,auto);
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
