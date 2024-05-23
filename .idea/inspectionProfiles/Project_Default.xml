@@ -1,0 +1,63 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="grid-template-columes" />
+            <item index="1" class="java.lang.String" itemvalue="postiton" />
+            <item index="2" class="java.lang.String" itemvalue="hight" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="-equiv" />
+            <item index="1" class="java.lang.String" itemvalue="http" />
+            <item index="2" class="java.lang.String" itemvalue="href" />
+            <item index="3" class="java.lang.String" itemvalue="a" />
+            <item index="4" class="java.lang.String" itemvalue="css" />
+            <item index="5" class="java.lang.String" itemvalue="py.png" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="21">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="ul" />
+            <item index="7" class="java.lang.String" itemvalue="Work" />
+            <item index="8" class="java.lang.String" itemvalue="about" />
+            <item index="9" class="java.lang.String" itemvalue="like" />
+            <item index="10" class="java.lang.String" itemvalue="header2-text" />
+            <item index="11" class="java.lang.String" itemvalue="header-text" />
+            <item index="12" class="java.lang.String" itemvalue="myself" />
+            <item index="13" class="java.lang.String" itemvalue="Me" />
+            <item index="14" class="java.lang.String" itemvalue="content" />
+            <item index="15" class="java.lang.String" itemvalue="title" />
+            <item index="16" class="java.lang.String" itemvalue="style" />
+            <item index="17" class="java.lang.String" itemvalue="navlist" />
+            <item index="18" class="java.lang.String" itemvalue="li" />
+            <item index="19" class="java.lang.String" itemvalue="div" />
+            <item index="20" class="java.lang.String" itemvalue="style.css" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
